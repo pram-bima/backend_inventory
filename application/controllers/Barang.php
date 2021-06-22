@@ -179,8 +179,8 @@ class Barang extends CI_Controller
 	}
 
 	private function upload_foto($id_barang, $files) {
-		$gallerPath = realpath(APPATH.'../foto');
-		$path = $gallerPath.'/'.$id_barang;
+		$galleryPath = realpath(APPPATH.'../foto');
+		$path = $galleryPath.'/'.$id_barang;
 
 		if (!is_dir($path)) {
 			mkdir($path, 0777, TRUE);
