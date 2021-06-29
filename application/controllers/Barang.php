@@ -84,7 +84,7 @@ class Barang extends CI_Controller
 		$data_json = array(
 			'draw' => $draw,
 			'recordsTotal' => $recordsTotal,
-			'recordsFiltered' = $recordsFiltered,
+			'recordsFiltered' => $recordsFiltered,
 			'data' => $data,
 		);
 
